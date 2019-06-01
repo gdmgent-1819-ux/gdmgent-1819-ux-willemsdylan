@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+:root {
+  /*  * Colour palette
+   */
+  --c-primary: hsl(20, 51%, 61%, 1);
+  --c-secondary: hsl(20, 42%, 36%);
+  --c-tertiary: hsl(20, 100%, 81%);
+  --c-quaternary: hsl(175, 52%, 61%);
+
+  /*  * Layout
+   */
+  --l-gutter: 1rem;
+
+  /*  * Typography
+   */
+  --t-primary: 'Comfortaa', sans-serif;
+  --t-secondary: 'Comfortaa', 'Segoe UI', sans-serif;
+  --t-tertiary: monospace;
+
+  --t-headline: var(--t-primary);
+  --t-subtitle: var(--t-primary);
+  --t-body: var(--t-secondary);
+  --t-code: var(--t-tertiary);
+}

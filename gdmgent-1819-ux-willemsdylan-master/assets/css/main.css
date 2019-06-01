@@ -1,0 +1,208 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+@import url('variables.css');
+@import url('base.css');
+
+@import url('components/flex-grid.css');
+@import url('components/buttons.css');
+@import url('components/forms.css');
+
+body {
+    width: 1520px;
+}
+
+*{
+    /* margin:0; */
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* ---------- HEADER ---------- */
+
+header {
+    height: 150px;
+}
+
+header>#bg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    height: 150px;
+    width: 1536px;
+    opacity: 0.25;
+}
+
+/* ---------- NAV ---------- */
+
+nav {
+    display:flex;
+    height: 100%;
+}
+
+nav * {
+    flex:30%;
+}
+
+nav .NAV{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav .NAV:first-child {
+    padding-left: 50px;
+}
+
+nav>ul.NAV>li {
+    flex:50%;
+    list-style: none;
+    font-size: 13pt;
+    font-family: 'Segoe UI';
+}
+
+nav>ul.NAV>li a:hover {
+    color: #824F35;
+    font-weight: bolder;
+}
+
+nav>ul.NAV>li a{
+    flex:50%;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-weight: 500;
+}
+
+div.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img#logo {
+    width: 10.2%;
+}
+
+img#logo,
+img#bg {
+    position: absolute;
+}
+
+/* ---------- CONTENT ---------- */
+
+
+div.content {
+    margin: 50px;
+}
+
+.slogan {
+    font-family: 'Comfortaa', cursive;
+    font-size: 35pt;
+    font-weight: bold;
+    color: #824F35;
+    text-align: center;
+}
+
+#pc {
+    width: 1000px;
+    margin-left: 200px;
+    margin-bottom: 25px;
+}
+
+#tekst {
+    width: 78%;
+    margin-left: 50px;
+}
+
+div#tekst>h2 {
+    font-size: 20pt;
+    font-weight: lighter;
+    color: #CE8B69;
+    margin-bottom: -5px;
+}
+
+div#tekst>p {
+    line-height: 1.6;
+}
+
+/* ---------- FOOTER ---------- */
+
+
+footer {
+    height: 185px;
+    width: 100%;
+    padding: 20px;
+    background-color: #CF8B69;
+}
+
+.contact {
+    width: 15%;
+}
+
+.ftitel1 {
+    font-size: 15pt;
+    padding-top: 45px;
+    display: inline;
+    color: #28827C;
+}
+
+.adres {
+    margin-top: -17px;
+    margin-left: 27px;
+    margin-bottom: 0px;
+}
+
+.email {
+    margin-top: -17px;
+    margin-left: 27px;
+}
+
+.tel {
+    margin-top: -17px;
+    margin-left: 27px;
+}
+
+.fa-phone {
+    transform: scale(-1, 1)
+}
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-instagram {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-instagram:hover {
+    color: #FFBD9C;
+}
+
+.uren {
+    margin-left: 1230px;
+    margin-top: -165px;
+}
+
+.ftitel2 {
+    font-size: 15pt;
+    display: inline;
+    text-align: right;
+    color: #28827C;
+}
+
+th:first-child {
+    padding-right: 20px;
+}
+
+th:nth-child(2) {
+    font-variant: small-caps;
+    font-weight: 150;
+}
+
+th {
+    text-align: left;
+}

@@ -1,0 +1,36 @@
+div#tekst>button {
+    font-size: 10pt;
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+ }
+ 
+ button {
+     display: block;
+     margin-top: -40px;
+     border-radius: 5px;
+     background: #FFBD9C;
+     opacity: 0.65;
+     border: #CE8B69 1pt solid;
+     width: 100px;
+     position: relative;
+     float: right;
+ }
+
+ button:active {
+    padding: 2px;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, .3);
+}
+ 
+ .fa-chevron-right {
+     color:#FFBD9C;
+     margin-left: 826px;
+     margin-top: -38px;
+     position: absolute;
+     padding-left: 270px;
+     text-shadow: 0.1px 0.1px 1px #000;
+ }
+
+ #tekst>button:hover {
+     font-size: 12pt;
+ }
